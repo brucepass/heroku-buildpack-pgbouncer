@@ -1,5 +1,9 @@
 # Heroku buildpack: pgbouncer
 
+**NOTE** This fork was created to mitigate the build issue caused by conflicting `/vendor` directory. This fork should only be used until Heroku has fixed this issue in the original repo.
+
+More info in Heroku Issue: [https://help.heroku.com/1094764](https://help.heroku.com/1094764)
+
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) that
 allows one to run pgbouncer in a dyno alongside application code.  It is meant
 to be [used in conjunction with other
