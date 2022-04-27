@@ -1,6 +1,6 @@
-# Heroku buildpack: pgbouncer
-
 **NOTE** This fork was created to mitigate the build issue caused by conflicting `/vendor` directory. This fork should only be used until Heroku has fixed this issue in the original repo.
+
+# Heroku buildpack: pgbouncer
 
 More info in Heroku Issue: [https://help.heroku.com/1094764](https://help.heroku.com/1094764)
 
